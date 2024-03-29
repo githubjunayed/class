@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.mid-content{
+    max-width: 1200px;
+    margin: auto;
+}
+body,h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'Work Sans', sans-serif;
+}
+.headersection{
+    background: #FDA7DF;
+    border-bottom: 1px solid green;
+}
+.headerlogo img{
+    width: 30%;
+}
+.headermenu{
+    width: 60%;
+    margin: 50px 0;
+    
+}
+.headrbtn{ 
+    width: 10%;
+
+}
+.primary{
+    
+}
+.primary ul{
+
+}
+.primary ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.primary ul li a{
+    display: block;
+    margin-left: 50px;
+    
+}
+.primary ul li a:hover{}
+.btn{
+    color: red;
+    background: green;
+    padding: 10px;
+    display: inline-block;
+    margin: 40px 0;
+    border-radius: 13px 0;
+    opacity: 1;
+    position: relative;
+}
+.headerlogo span{
+    display: inline-block;
+    float:right;
+    margin-top: 50px;
+}
+.primary ul li{
+    position: relative;
+}
+.primary ul li ul{
+    position: absolute;
+    right: 0;
+    top:100%;
+    width: 300px;
+    background:green;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.primary ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.banner-section{
+    background-image: url(globe-3411506_1280.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+    z-index: 9;
+    background-attachment: fixed;
+    
+    
+
+}
+.banner-content{
+    
+    
+}
+.banner-content h2{
+    font-size: 100px;
+}
+.banner-content h3{
+    font-size: 30px;
+    
+    
+    padding: 10px;
+    margin: 10px;
+}
+.headermaz{
+    font-size: 20px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 45px;
+    border-radius: 10px 0;
+    transition: .5s;
+    margin-right: 50px;
+    
+    
+}
+.headermaz:hover{
+    background: red;
+}
+.banner-content h3::before{
+    content: "'";
+}
+.banner-content h3::after{
+    content: "'";
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, o, .4);
+    z-index: -1;
+}
+.banner-content{
+    background: white;
+    padding: 100px 0;
+
+}
+.videoleft{
+    width: 48%;
+    
+}
+.contentright{
+    width: 48%;
+
+}
+.contentright p{
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    background: black;
+    margin-top: 50px;
+    font-weight: 100;
+    color: green;
+    line-height:2;
+}
+.contentright h2{
+    font-size: 20px;
+    background: green;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px 0;
+    transition: .5s;
+    
+}
+.contentright h2:hover{
+    background: red;
+}
+.servicesection{
+
+}
+.servicetitle h1{
+    background: green;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px 0;
+    font-style: italic;
+    transition: .5s;
+}
+.servicetitle h1:hover{
+    background: red;
+}
+.servicetitle p{
+    margin-top: 20px;
+}
+.servicesitem{
+    
+    margin-top: 30px;
+    
+}
+.servicesmenu{
+    width: 30.3%;
+    box-shadow: 4px 4px 30px 0 green;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-sizing:border-box;
+}
+.services{}
+.services h1{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.services p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.icon{}
+.icon span{
+    font-size: 40px;
+    
+    width: 50px;
+    float: left;
+    min-height: 200px;
+    margin-right: 10px;
+    
+}
+.icon span:hover{
+
+}
+.servicetitle h2{
+    font-size: 50px;
+    margin-bottom: `10px;
+}
+.servicetitle P{
+    font-size: 30px;
+    background: greenyellow;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px 0;
+    font-style: italic;
+}
+.pricing-tabel-section 
